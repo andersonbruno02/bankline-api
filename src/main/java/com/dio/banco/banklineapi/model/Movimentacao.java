@@ -25,7 +25,8 @@ public class Movimentacao {
 	private Integer id;
 	@Column(name = "data_hora")
 	private LocalDateTime dataHora;
-	
+	@Column(name = "id_conta")
+	private Integer idConta;
 	private String descricao;
 	private BigDecimal valor;
 	@Enumerated
